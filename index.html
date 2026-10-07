@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonrisa Clara · Clínica Dental</title>
+  <meta name="description" content="Clínica dental Sonrisa Clara: limpiezas, ortodoncia, implantes, blanqueamiento y odontopediatría.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#inicio" class="logo">🦷 Sonrisa Clara</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="#contacto" class="btn btn-small">Agenda tu hora</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Clínica dental en Santiago</p>
+          <h1>Tu mejor sonrisa empieza aquí</h1>
+          <p class="lead">Atención cercana, tecnología moderna y un equipo de especialistas para cuidar la salud bucal de toda tu familia.</p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn">Agenda tu evaluación</a>
+            <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>+15</strong> años de experiencia</li>
+            <li><strong>+8.000</strong> pacientes atendidos</li>
+            <li><strong>6</strong> especialistas</li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-emoji">😁</div>
+          <p>Primera evaluación<br><strong>sin costo</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Nuestros servicios</h2>
+        <p class="section-intro">Tratamientos para cada etapa de tu vida, con planes de pago a tu medida.</p>
+        <div class="cards">
+          <article class="card">
+            <span class="card-icon">✨</span>
+            <h3>Limpieza y prevención</h3>
+            <p>Profilaxis, destartraje y controles periódicos para mantener tus dientes sanos.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">😬</span>
+            <h3>Ortodoncia</h3>
+            <p>Brackets metálicos, estéticos y alineadores invisibles para corregir tu mordida.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">🔩</span>
+            <h3>Implantes dentales</h3>
+            <p>Recupera piezas perdidas con implantes de titanio y coronas de alta durabilidad.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">💎</span>
+            <h3>Blanqueamiento</h3>
+            <p>Aclara el tono de tus dientes de forma segura en clínica o en casa.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">🧸</span>
+            <h3>Odontopediatría</h3>
+            <p>Atención amable y paciente para que los más pequeños disfruten su visita.</p>
+          </article>
+          <article class="card">
+            <span class="card-icon">🚑</span>
+            <h3>Urgencias dentales</h3>
+            <p>Atendemos dolores y accidentes el mismo día. Llámanos y te ayudamos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <h2>¿Por qué elegirnos?</h2>
+          <p>En Sonrisa Clara creemos que ir al dentista no tiene por qué ser incómodo. Te explicamos cada paso de tu tratamiento y trabajamos con equipos de última generación.</p>
+        </div>
+        <ul class="checklist">
+          <li>Radiografía digital con menor radiación</li>
+          <li>Convenios con Fonasa e isapres</li>
+          <li>Pago en cuotas sin interés</li>
+          <li>Horario extendido y sábados</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section">
+      <div class="container">
+        <h2>Lo que dicen nuestros pacientes</h2>
+        <div class="cards testimonials">
+          <blockquote class="card">
+            <p>“Le tenía miedo al dentista y aquí me sentí muy tranquila. ¡Súper recomendados!”</p>
+            <cite>— Camila R.</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>“Mi hijo ahora pide ir a sus controles. El equipo es muy cariñoso.”</p>
+            <cite>— Andrés M.</cite>
+          </blockquote>
+          <blockquote class="card">
+            <p>“Me hice implantes y el resultado fue excelente. Precios claros desde el inicio.”</p>
+            <cite>— Patricia G.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-cta">
+      <div class="container contact-grid">
+        <div>
+          <h2>Agenda tu hora</h2>
+          <p>Déjanos tus datos y te contactaremos para confirmar tu cita.</p>
+          <ul class="contact-info">
+            <li>📍 Av. Ejemplo 1234, Santiago</li>
+            <li>📞 +56 2 2345 6789</li>
+            <li>✉️ contacto@sonrisaclara.cl</li>
+            <li>🕘 Lun a Vie 9:00–20:00 · Sáb 9:00–14:00</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="form-contacto">
+          <label>Nombre
+            <input type="text" name="nombre" required placeholder="Tu nombre">
+          </label>
+          <label>Teléfono
+            <input type="tel" name="telefono" required placeholder="+56 9 1234 5678">
+          </label>
+          <label>Servicio de interés
+            <select name="servicio">
+              <option>Limpieza y prevención</option>
+              <option>Ortodoncia</option>
+              <option>Implantes dentales</option>
+              <option>Blanqueamiento</option>
+              <option>Odontopediatría</option>
+              <option>Urgencia</option>
+            </select>
+          </label>
+          <button type="submit" class="btn">Solicitar hora</button>
+          <p class="form-msg" id="form-msg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Sonrisa Clara · Clínica ficticia creada como proyecto de práctica.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('form-contacto').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('form-msg').textContent = '¡Gracias! Te contactaremos pronto para confirmar tu hora.';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
